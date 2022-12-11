@@ -8,6 +8,10 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     ButtonRepo: typeof import('./src/components/ButtonRepo.vue')['default']
+    Calendar: typeof import('./src/components/Calendar.vue')['default']
+    CalendarDay: typeof import('./src/components/CalendarDay.vue')['default']
+    CardBg: typeof import('./src/components/CardBg.vue')['default']
+    Navbar: typeof import('./src/components/Navbar.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
